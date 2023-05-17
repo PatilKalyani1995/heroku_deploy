@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Flask App</title>
+
+
+</head>
+
+<body>
+    <h1>Fill the Form</h1>
+    <form action="predict" method="post">
+        <input type= 'number' name="experience" placeholder="experience" required="required"> <br><br>
+        <input type= 'number' name="test_score" placeholder="test_score" required="required"> <br><br>
+        <input type= 'number' name="interview_score" placeholder="interview_score" required="required"> <br><br>
+
+
+
+        <button type="submit"> predict </button>
+    </form>
+
+    {{prediction_text}}
+
+</body>
+
+
+
+</html>
